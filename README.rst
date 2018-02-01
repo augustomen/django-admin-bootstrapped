@@ -1,18 +1,13 @@
 django-admin-bootstrapped
 =========================
 
-.. image:: https://travis-ci.org/django-admin-bootstrapped/django-admin-bootstrapped.svg
-    :target: https://travis-ci.org/django-admin-bootstrapped/django-admin-bootstrapped
-
-|PyPI version|
-
 A Django admin theme using Bootstrap. It doesn't need any kind
 of modification on your side, just add it to the installed apps.
 
 Requirements
 ------------
 
--  Django ``==1.8``
+-  Django ``==2.0``
 
 With Django ``1.6`` use version ``2.3.6``
 

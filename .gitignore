@@ -6,3 +6,5 @@ testenv
 .idea
 dist
 build
+env
+db.sqlite3
