@@ -7,4 +7,5 @@ testenv
 dist
 build
 env
+venv
 db.sqlite3
