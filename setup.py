@@ -22,7 +22,7 @@ setup(
     maintainer="Dominik Magdaleński",
     maintainer_email="dominik.magdalenski@gmail.com",
     name='django-admin-bootstrapped',
-    version='2.6.1',
+    version='2.6.2',
     description='A Bootstrap theme for Django Admin',
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
     url='https://github.com/dive-networks/django-admin-bootstrapped',
@@ -31,7 +31,7 @@ setup(
     classifiers=CLASSIFIERS,
     install_requires=[
         'setuptools',
-        'Django>=2.0,<2.1',
+        'Django>=2.0,<3.0',
     ],
     test_suite='django_admin_bootstrapped.runtests.runtests',
     packages=find_packages(),

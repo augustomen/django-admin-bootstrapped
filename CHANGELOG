@@ -1,3 +1,7 @@
+==== 2.6.2 (2019-07-10) ====
+
+- Add Django >=2.0,<3.0 support (Dominik Magdaleński)
+
 ==== 2.6.1 (2018-05-23) ====
 
 - Fix rendering of "related" widgets (related_widget_wrapper.html template) (Dominik Magdaleński)
