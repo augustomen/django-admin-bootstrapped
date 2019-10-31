@@ -23,7 +23,7 @@ class TestMe(models.Model):
     test_comma_separated_int = models.CharField(max_length=100, help_text='Lorem dolor', validators=[validate_comma_separated_integer_list])
     test_small_int = models.SmallIntegerField(help_text="Lorem dolor")
     test_nullbool = models.NullBooleanField(help_text="Lorem dolor")
-    test_filepath = models.FilePathField(blank=True, help_text="Lorem dolor")
+    test_filepath = models.FilePathField(blank=True, help_text="Lorem dolor", path=".")
     test_positive_small_int = models.PositiveSmallIntegerField(help_text="Lorem dolor")
 
     def get_absolute_url(self):
