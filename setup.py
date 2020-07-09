@@ -31,7 +31,7 @@ setup(
     classifiers=CLASSIFIERS,
     install_requires=[
         'setuptools',
-        'Django>=2.0,<3.0',
+        'Django>=3.0',
     ],
     test_suite='django_admin_bootstrapped.runtests.runtests',
     packages=find_packages(),

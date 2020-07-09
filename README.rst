@@ -7,19 +7,34 @@ of modification on your side, just add it to the installed apps.
 Requirements
 ------------
 
--  Django ``>=2.0,<3.0``
+-  Django >= 3.0
+
+With Django ``>1.8,<3.0`` use version ``2.6``
+
+With Django ``1.6`` use version ``2.3.6``
+
+With Django ``1.7`` use version ``2.4.0``
 
 Installation
 ------------
 
-1. Download it from PyPi with ``pip install django-admin-bootstrapped``
-2. Add into the ``INSTALLED_APPS`` **before** ``'django.contrib.admin'``:
+Either you can install a particular release directly - e.g.:
+
+``pip install https://github.com/Showmax/django-admin-bootstrapped/archive/2.7.0.tar.gz``
+
+Or you can build and install current master:
+
+1. Clone from github: ``git clone https://github.com/Showmax/django-admin-bootstrapped.git``
+2. Build the package: ``cd django-admin-bootstrapped && python setup.py sdist``
+3. Install the package: ``pip install dist/django-admin-bootstrapped-*.tar.gz``
+   (you may need to specify version if you have more builds in ``dist/``)
+4. Add into the ``INSTALLED_APPS`` **before** ``'django.contrib.admin'``:
 
 ::
 
     'django_admin_bootstrapped',
 
-3. Have fun!
+5. Have fun!
 
 Configuration
 -------------
